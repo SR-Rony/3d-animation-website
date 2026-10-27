@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glacier Study</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <canvas id="gl"></canvas>
+
+  <header class="hud">
+    <span class="brand">GLACIER<i>/</i>STUDY</span>
+    <span class="pct" id="pct">000</span>
+  </header>
+  <div class="bar"><div id="bar"></div></div>
+
+  <main id="scroll">
+    <section class="chapter" data-i="0">
+      <h1>Frozen<br />in motion</h1>
+      <p>A scroll-driven 3D study. One persistent scene, one camera path, one scroll value.</p>
+      <span class="hint">scroll ↓</span>
+    </section>
+    <section class="chapter right" data-i="1">
+      <h2>The dome</h2>
+      <p>A transmissive shell with procedural roughness and bump maps refracts the world behind it.</p>
+    </section>
+    <section class="chapter" data-i="2">
+      <h2>Breaking apart</h2>
+      <p>Shards drift outward as scroll progress passes the middle of the journey.</p>
+    </section>
+    <section class="chapter right" data-i="3">
+      <h2>Inside the glow</h2>
+      <p>Bloom and a custom chromatic pass react to scroll velocity.</p>
+    </section>
+    <section class="chapter" data-i="4">
+      <h2>Settle</h2>
+      <p>The camera rises, the shards return, the snow keeps falling.</p>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
