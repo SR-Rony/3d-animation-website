@@ -30,3 +30,4 @@ npm run build    # static output in dist/
    canvas acts as the environment so the glass has something to refract.
 7. **Snow** – `Points` with a vertex shader that wraps particles vertically using `uTime`; no CPU updates.
 8. **DOM** – an `IntersectionObserver` toggles `.on` on each chapter for fade/translate-in; HUD shows progress.
+# 3d-animation-website
